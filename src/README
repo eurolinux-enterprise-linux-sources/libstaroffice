@@ -1,0 +1,26 @@
+The purpose of libstaroffice is to build a filter for old StarOffice's
+documents(.sdc, .sdw, ...) based on librevenge(see
+https://sourceforge.net/p/libwpd/wiki/librevenge/ and
+http://www.documentliberation.org/projects/ ).
+
+Currently:
+- .sda/.sdp files: it tries to retrieve some basic contents, ie. the
+  basic shapes (lines, rectangles, ellipse, ...), the bitmaps and some
+  formattings. But this parser is still incomplete: some default
+  formattings are simply ignored ...
+- .sdc files: it tries to convert the main content of a .sdc files,
+  ie. the cells' value/text/formula, the cells' comments and the
+  cells' formattings. But it does not try to retrieve any embedded
+  charts, ...
+- .sdg files: it tries to retrieve all the bitmap .bm in the
+  files. Other objects are simply ignored and some bitmaps are
+  reconstructed with bad vertical orientations, ...
+- .sdw files: begins to retrieve the main text contents with
+  formattings. But this parser is still incomplete...
+- other .sd? files: it refuses to convert them, ...
+
+Notes:
+- when configured with --enable-full-debug, it also tries to parse
+  other StarOffice's files and it creates some "*.ascii" files in the
+  current repository(to show what is parsed) ; but of course, it still
+  does not generate any output...

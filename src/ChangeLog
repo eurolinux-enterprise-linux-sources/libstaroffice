@@ -1,0 +1,1237 @@
+2017-07-16  osnola  <alonso@loria.fr>  [5a00b2c8eb39a7a99a7581b5d4dad7853da553d1]
+
+tUpdate READMEs files + update the configure.ac's minor version...
+
+
+2017-07-03  osnola  <alonso@loria.fr>  [e49d2adca27326da7c130652ab35c4a9f1cd083d]
+
+tRename FALLTHROUGH in STOFF_FALLTHROUGH + try to simplify the code...
+
+
+2017-07-02  osnola  <alonso@loria.fr>  [48b418c81f152dae484e9a297ad81697b0f2a4e0]
+
+tgcc7: try to remove some warnings...
+
+
+2017-05-17  David Tardon  <dtardon@redhat.com>  [0bf920d26d02ae0f006d6cc0eff0cd5d706e29e3]
+
+tofz#1252 check for end of record
+
+
+2017-05-17  David Tardon  <dtardon@redhat.com>  [fa2bfff83e9ef6d8c6b3d3629079eabf4e91dd5e]
+
+tlikely intent
+
+
+2017-05-14  osnola  <alonso@loria.fr>  [7c9f9142a142af961e0eca67c6ab55abae7c7e3f]
+
+tmingw: correct a problem...
+
+
+2017-04-20  David Tardon  <dtardon@redhat.com>  [cc349517ccd57fcf05309992098ec7ce70bb299f]
+
+tofz#1145 avoid negative shift value
+
+
+2017-04-20  David Tardon  <dtardon@redhat.com>  [1feb3b8eb55d7659c278705745ae66b260a64cd8]
+
+tofz#1059 replace * by / to avoid truncation
+
+
+2017-04-20  David Tardon  <dtardon@redhat.com>  [1fde47747be83ae2d453b0c85a3cdfc8943cfa55]
+
+tWaE: comparison between signed and unsigned integer expressions
+
+
+2017-04-15  David Tardon  <dtardon@redhat.com>  [6fde2968cc9aeb2455ae487614834c202bac33bf]
+
+tofz#1111 add missing entry to encoding table
+
+
+2017-04-12  David Tardon  <dtardon@redhat.com>  [071ea36f8a14d5b67ffbe61b49da4053b553b6fe]
+
+tofz#1075 fix shifts for 16-bit color in RGB555 fmt
+
+
+2017-04-08  David Tardon  <dtardon@redhat.com>  [95b119ede6060b81ebcfbc31bb57f215520445b8]
+
+tofz#1056 check max possible # of colors in palette
+
+t... to avoid integer overflow
+
+2017-04-07  David Tardon  <dtardon@redhat.com>  [2d6253c7a692a3d92785dd990fce7256ea05e794]
+
+tofz#1029 use correct loop index
+
+tTo be honest, I think this would be clearer as two separate reads to two
+tseparate vars...
+
+2017-04-05  David Tardon  <dtardon@redhat.com>  [7b04b9880ee8ffabcb515362ed5027070c4e4ca2]
+
+tavoid memory leak on error
+
+
+2017-04-05  David Tardon  <dtardon@redhat.com>  [87b350f0a7b65b0f98f5008273340b16d8cb2ed9]
+
+tadd sdw fuzzer
+
+
+2017-04-05  David Tardon  <dtardon@redhat.com>  [f2847fd4c9c3714a031b4ef91aa77e6f91530261]
+
+tadd sdd fuzzer
+
+
+2017-04-05  David Tardon  <dtardon@redhat.com>  [25123f89a91931842c142e9d23e69bd9fa8854d4]
+
+tadd sda fuzzer
+
+
+2017-04-01  David Tardon  <dtardon@redhat.com>  [c4ff074b7b7b332b3b5feecf51798c205251d9cd]
+
+tadd fuzzing driver for oss-fuzz
+
+
+2017-04-01  David Tardon  <dtardon@redhat.com>  [d5106a66473f77cd6e5b3447ea5b6e4e7cfdec91]
+
+tastyle
+
+
+2017-02-21  osnola  <alonso@loria.fr>  [bf3c107245683836f1ba6bba6da86e960e673eec]
+
+tUpdate some README files...
+
+
+2017-02-20  osnola  <alonso@loria.fr>  [3601981a69d17d6dcc1c010208aadc2709a383a3]
+
+tregression: update results...
+
+
+2017-02-17  osnola  <alonso@loria.fr>  [ab92668aaaf619a0a7d730bb06b7740eaf223c79]
+
+tafl: correction of a potential very long loop
+
+
+2017-02-15  osnola  <alonso@loria.fr>  [7537a8754731f61f718ee9caf85f11477f47b049]
+
+tTry to retrieve some OLEs when a picture is available...
+
+
+2017-02-11  osnola  <alonso@loria.fr>  [0e9bf11d75de911df09ab6012070f644f7903ec1]
+
+tStarLayout: try to "improve" the parsing of StarLayout structures + correct some compilers' warnings...
+
+
+2017-02-07  osnola  <alonso@loria.fr>  [ccadf083bd584e98db013f989e0188b194e72cec]
+
+tStarObject: try to improve the parsing of persist elements...
+
+
+2017-02-07  osnola  <alonso@loria.fr>  [bd09a37fe648f3a1c0f72870b9025927d002685f]
+
+tStarObjectText: try to retrieve some outline level, to be improved...
+
+
+2017-02-05  osnola  <alonso@loria.fr>  [919d7ad62fe00d641e9608de4c1172fa0c608109]
+
+tStarObjectSmallGraphic: try to retrieve the texbox's rotation...
+
+
+2017-02-03  osnola  <alonso@loria.fr>  [7e98bedcd06bdc206cfa825af0d377e187eb0be5]
+
+tcorrect some minor problems when reading some structures...
+
+
+2017-02-02  osnola  <alonso@loria.fr>  [78a7130350fd9bb0e052687870073366fd44e34e]
+
+tSTOFF*Listener: do not forget to push deferred text before opening a link...
+
+
+2017-02-01  osnola  <alonso@loria.fr>  [8c230aaba3934f81b0e54648ab7db9deae55ed32]
+
+tStarFileManager: try to read more embedded pictures...
+
+
+2017-02-01  osnola  <alonso@loria.fr>  [48fbc99b65f4e079ebeb722b61467cc2d9115b92]
+
+tSTOFFFrameStyle: begin to store some frame styles...
+
+
+2017-02-01  osnola  <alonso@loria.fr>  [83ac949160f75538f9cae5be2e769d0f4628bb04]
+
+tSTOFFFrameStyle: create a class to store the frame style, to be continued...
+
+
+2017-02-01  osnola  <alonso@loria.fr>  [637cb5890005dedb747083f0ddd5b160d03151bf]
+
+tStarFrameAttribute.*xx: add a file to regroup the reading of the frame   attributes...
+
+
+2017-01-31  osnola  <alonso@loria.fr>  [c9fea6d282d4f062dc3bbb9d5ea3f5d8d053296e]
+
+tAdd some new test files, given by Gerry T. (many thanks)...
+
+
+2017-01-31  osnola  <alonso@loria.fr>  [95e1b4b28f4a6281d310fda4a84098997f341b68]
+
+tregression: update to current status...
+
+
+2017-01-31  osnola  <alonso@loria.fr>  [a48af3962b7fced48023efb045294a29acc0b1df]
+
+tStarTable: - improve the border reconstruction and begin to retrieve cell's background color...
+
+
+2017-01-30  osnola  <alonso@loria.fr>  [e5e39cfa4da034e1b3895ca565a984e435764b8a]
+
+tStarTable:   - retrieve the column width,   - retrieve the cell's borders, to be improved...
+
+
+2017-01-30  osnola  <alonso@loria.fr>  [76bce3d73a035f3be368537c3b3ab9a06cc0586a]
+
+tStarTable: try to retrieve more complex tables with no formatting...
+
+
+2017-01-26  osnola  <alonso@loria.fr>  [4540f9c2c55dde50d6494c1c92debd616f75e3a4]
+
+tContinue to simplify STOFFTable...
+
+
+2017-01-26  osnola  <alonso@loria.fr>  [762afc487b026b4f1eb34939c6bd8e230b413a2b]
+
+tRemove some unused code...
+
+
+2017-01-26  osnola  <alonso@loria.fr>  [50b380d56a094ca540e12d05133c432c4f916a87]
+
+tTry to correct some problems when reading some structures...
+
+
+2017-01-25  osnola  <alonso@loria.fr>  [1d0bdb596280f6303aab27b3e7079b827aa1f765]
+
+tStarGraphicStruct.cxx: add code to read native format...
+
+
+2017-01-25  osnola  <alonso@loria.fr>  [24e9a6b4e930e770ac266b319909cdd92fd44a00]
+
+tTry to convert document created by StarImpress in odp...
+
+
+2017-01-24  osnola  <alonso@loria.fr>  [5fec1ed23e0097425d3cce1f40137b7606099856]
+
+tTry to retrieve soft-hyphen and some default attributes...
+
+
+2017-01-24  osnola  <alonso@loria.fr>  [17b36a3406459c4ffb507c982a9355d9fd5c1422]
+
+tStarParagraphAttribute.cxx: try to retrieve the interline spacing and paragraph's justification correctly...
+
+
+2017-01-09  osnola  <alonso@loria.fr>  [aabf3010eb73a816edd2b61e766845d256c37c79]
+
+tspreadsheet: try to improve the date's recovering + some minor formatting.
+
+
+2017-01-06  osnola  <alonso@loria.fr>  [f04eac1227b9051ffe611a1bcc332674f1a9b719]
+
+tOoops, fo:style:punctuation-wrap must be style:punctuation-wrap...
+
+
+2017-01-06  osnola  <alonso@loria.fr>  [fb979233f322e6a4e9509b4125595a53297e6738]
+
+tadd some test file created with LibreOffice 3.3 and save as .sd*
+
+
+2017-01-06  osnola  <alonso@loria.fr>  [e7ad85f522006689f1ff029f3db2cda2561ac2af]
+
+tAdd some new test files, given by Michael Meeks (many thanks)...
+
+
+2016-08-24  osnola  <alonso@loria.fr>  [75c80964c6ea5ba2284001c87e7188b096edd148]
+
+tBasic merge
+
+
+2016-08-24  osnola  <alonso@loria.fr>  [eaadfe0c54d39b12f7964216680faf77bd748fbc]
+
+tRemove some unneeded virtual keywords...
+
+
+2016-08-10  David Tardon  <dtardon@redhat.com>  [f3388abfbf1246ff4a6b6dc685af12dc19f58b21]
+
+twarning C4138: '*/' found outside of comment
+
+
+2016-08-10  David Tardon  <dtardon@redhat.com>  [1bbb89aff70e81d47af617bb1407e70545a2f99a]
+
+terror C2512: 'StarObject' : no appropriate default constructor available
+
+
+2016-08-10  osnola  <alonso@loria.fr>  [e4773acadd8f54254c7f1d91aa935e76b1729227]
+
+tUpdate the NEWS file...
+
+
+2016-08-10  osnola  <alonso@loria.fr>  [b9aff92546bf7bda42b8f442919ea2c2bf5e21aa]
+
+tafl: correct a potential out-of-bound read...
+
+
+2016-08-09  osnola  <alonso@loria.fr>  [02200cac8e7634b9ba19bfd315d01b45d885e7a8]
+
+tafl: try to avoid preallocating a big list of paragraphs if this is not needed...
+
+
+2016-08-09  osnola  <alonso@loria.fr>  [acf497243eebd2cca03979ceb9bb66c0e47d5d93]
+
+tafl: correct a potential very long loop...
+
+
+2016-08-08  osnola  <alonso@loria.fr>  [64eeab543599b0c48e7026c2f54c7194968ec9f1]
+
+tafl: correct a potential infinite loop + a potential very long loop...
+
+
+2016-08-07  osnola  <alonso@loria.fr>  [47ffe4e82fe4014166e838b7772de96de7a55910]
+
+tRegression tests: add some .sdw files + update all results...
+
+
+2016-08-07  osnola  <alonso@loria.fr>  [c0369648066b20d982937cd9c814c79d55410486]
+
+t.sdw: check correctly if a zone has a password...
+
+
+2016-08-05  osnola  <alonso@loria.fr>  [f80a5cf22f7c81f78c3d7f9d47d45e2140c885a2]
+
+tconfigure.ac: do not forget to increment the minor version   + add some code to compile with -Weverything
+
+
+2016-08-05  osnola  <alonso@loria.fr>  [558bc0278b26f83473c4b28c970bc11d92c3b8de]
+
+tcoverity: fix new errors...
+
+
+2016-08-05  osnola  <alonso@loria.fr>  [f7078d54c20653a4668ae16b0216259821ff2c4c]
+
+tCorrect a shadow member warnings...
+
+
+2016-08-05  osnola  <alonso@loria.fr>  [41fad48cb35c817ac513cf64cf83ddec01fc008e]
+
+tsmall corrections of compiler/cppcheck warnings...
+
+
+2016-08-05  osnola  <alonso@loria.fr>  [078003a39829c611aadc450223f4fec4cbc742c8]
+
+tAll: store the list level's font and try to retrieve at least the font name   + begin to modify the README files...
+
+
+2016-08-04  osnola  <alonso@loria.fr>  [9f0ac8869d8d4828007e158056538d5fa7a6273b]
+
+tTry to retrieve some list/outline in small text zones...
+
+
+2016-08-03  osnola  <alonso@loria.fr>  [8a8327fe5ce0f90ebe2000ce36873f955db68975]
+
+tStarObjectNumericRuler: add a file to store/retrieve list's data, .sdw: begin to retrieve the list's attributes...
+
+
+2016-07-31  osnola  <alonso@loria.fr>  [000623e3475ff4f4e47778d431aaf11d18799e1f]
+
+tStarGraphicAttribute: allow paragraph to have simple background color  + correct some compilers/clang's errors/warnings...
+
+
+2016-07-30  osnola  <alonso@loria.fr>  [834a0ad8ef40c2c05f06536b70a985d498a9c2f1]
+
+tsdw: improve the page's and section's recovering...
+
+
+2016-07-29  osnola  <alonso@loria.fr>  [4cffaf75f212af6a0f940f460efee8f32316abd4]
+
+tCreate a class StarState to store the current attributes' state, to   be continued...
+
+
+2016-07-28  osnola  <alonso@loria.fr>  [0b1949e94e2371fced3ad7db7f723651bdafe8e6]
+
+t.sdw: try to retrieve more style's attributes...
+
+
+2016-07-27  osnola  <alonso@loria.fr>  [108e47a9b0d54f122c291a64a5b4d8edc3f1bdb6]
+
+t.sdw: Try to retrieve some page/column breaks...
+
+
+2016-07-27  osnola  <alonso@loria.fr>  [7435e74f01e14ba8a3f9a5b268bd7079bbe122ec]
+
+t.sdw: try to retrieve the page dimensions and the columns...
+
+
+2016-07-24  osnola  <alonso@loria.fr>  [4efd89c328654e98ddce834401c679a6eb4bfca9]
+
+tStarWriterStruct.cxx: continue to create independant structures to read/store data... StarLayout.cxx: create a file to try parsing some layout structure...
+
+
+2016-07-20  osnola  <alonso@loria.fr>  [54d944778952236f71a5d5b99c6f2c137d88c34d]
+
+tStarWriterStruct.cxx: continue to create independant structures to read/store data...
+
+
+2016-07-19  osnola  <alonso@loria.fr>  [cfa992852aa28be11aa38f82d160e5615d8f22dc]
+
+tStarObjectText: continue to do some cleaning, ie. moving standard structure in StarWriterStruct
+
+
+2016-07-18  osnola  <alonso@loria.fr>  [f99ece0371de021aa10e66951b4d4262dacd249b]
+
+tStarObjectText: do some cleaning, ie. move some standard structure in StarWriterStruct and in StarTable,   to be continued...
+
+
+2016-07-17  osnola  <alonso@loria.fr>  [d77b60486da4f63560ef53b2193e5fcae60c0b4b]
+
+tCreate a file to read/store mark and bookmark, .sdw parser: try to retrieve the "section" nodes...
+
+
+2016-07-17  osnola  <alonso@loria.fr>  [1d92d6fc63488b4d95363a72ae4443d83a706af9]
+
+tsdw: try to retrieve some annotations, links or references...
+
+
+2016-07-16  osnola  <alonso@loria.fr>  [c850b970c38253a35d2f61343a01533f2d2c9daa]
+
+tSWFieldManager: add code to retrieve some field, to be continued...
+
+
+2016-07-12  osnola  <alonso@loria.fr>  [83b392df74049b9166196b15e452cabc310a1898]
+
+tSWFieldManager: add code to store the different fields, to be continued...
+
+
+2016-07-11  osnola  <alonso@loria.fr>  [a1609f49c2d40cbe955dde981a475722d1e8d172]
+
+tsdw: try to recover some local pictures, to be improved...
+
+
+2016-07-09  osnola  <alonso@loria.fr>  [2d931a5bdf7ac12ec3c2127c6d49c5af19318360]
+
+tsdw: try to recover the drawing layer...
+
+
+2016-07-08  osnola  <alonso@loria.fr>  [eb86a015c07b6fedb2a95b6514cfb616009c8771]
+
+tsdw: try to retrieve some table's content with almost no formatting :-~
+
+
+2016-07-07  osnola  <alonso@loria.fr>  [fc856c13fd75582ee21ba57d364cc2888a5f11ab]
+
+tsdw: retrieve footnote + begin to store the table's data...
+
+
+2016-07-07  osnola  <alonso@loria.fr>  [bbd8797a28d69b83f06350bc1c23f67c1dac086c]
+
+tsdw files: begin to retrieve the main text with almost no formatting,   to be continued...
+
+
+2016-07-06  osnola  <alonso@loria.fr>  [4889ff6dfaa159fedb5ba5708d7a9dccdfd16363]
+
+tTry to remove some duplicated code, ...
+
+
+2016-07-06  osnola  <alonso@loria.fr>  [8f2b74c50bb553ad515314af663bf737f56c5e4a]
+
+tRevert commit "2b399b9095f459a289731e7be5565e784a4246ab" while libodfgen is not   modified to allow inheritance for paragraph style
+
+
+2016-07-05  osnola  <alonso@loria.fr>  [ef2d2b97a27a58e662de9a3aa44a97176bdd7a2f]
+
+t.sdw: begin to add some files needed to create a parser, to be continued...
+
+
+2016-07-04  osnola  <alonso@loria.fr>  [2b399b9095f459a289731e7be5565e784a4246ab]
+
+tParagraph: define paragraph using inheritance...
+
+
+2016-07-03  osnola  <alonso@loria.fr>  [d8d8b4c5fe882b3202ad52cf5672d5bf4a16203d]
+
+tDo not send title and outline zone which are in master page...
+
+
+2016-07-03  osnola  <alonso@loria.fr>  [a293b96ed1f471034300cece848c207fdeaa2ce3]
+
+tContinue to retrieve some paragraph attributes.
+
+
+2016-07-01  osnola  <alonso@loria.fr>  [a7e5170d226bd5543c7ddcd4c6030be1c66d91d8]
+
+tBegin to retrieve some paragraph attributes, to be continued...
+
+
+2016-06-30  osnola  <alonso@loria.fr>  [1dde6ec3a7daa3722c43409976e93c5f0b59e922]
+
+tSmallTextZone: try to retrieve most character attributes + begin to add   code to retrieve paragraph attributes...
+
+
+2016-06-30  osnola  <alonso@loria.fr>  [7b1c9e751544cb1904780eea1b3738e6a16a6e98]
+
+tSmallTextZone: try to retrieve some character attributes...
+
+
+2016-06-29  osnola  <alonso@loria.fr>  [e98250a32d706fb3d68378f2c01ee319b04489f2]
+
+tStarGraphicAttribute: continue to retrieve more attributes, ...
+
+
+2016-06-27  osnola  <alonso@loria.fr>  [89be05dcdba9213573a0ed11ebed4d919b036a91]
+
+tTry to retrieve some measures and some captions(unsure), ...
+
+
+2016-06-27  osnola  <alonso@loria.fr>  [2116418e2ae822fdeeccc72f315bb46a66a2da59]
+
+tStarObjectSmallGraphic: try to retrieve some edges, ...
+
+
+2016-06-26  osnola  <alonso@loria.fr>  [1c16a002d78a8e474c029c27989a428a3bd14904]
+
+tStarGraphicAttribute: continue to retrieve more attributes, ...
+
+
+2016-06-25  osnola  <alonso@loria.fr>  [a151f6148fb2463b3950be5c3054d83b56c2be88]
+
+tStarGraphicAttribute: try to retrieve more attributes, to be continued...
+
+
+2016-06-24  osnola  <alonso@loria.fr>  [d8112e3dfdea00bf56d812ca1a4389e38ba12f01]
+
+tStarGraphicAttribute: units: metric units are 100th of millimeters, so try to convert them correctly Star*Attribute: repair the debug printing functions
+
+
+2016-06-23  osnola  <alonso@loria.fr>  [9011c22e64d068a49752e10572cc7857042acb58]
+
+tSpreadsheet: correct association between table and model's pages...
+
+
+2016-06-23  osnola  <alonso@loria.fr>  [18e92dd04ca6b62ac07f97ec56599d3496e7fb15]
+
+tTry to recover some OLE Object, ...
+
+
+2016-06-21  osnola  <alonso@loria.fr>  [3c5c3481bf5e6f987680dd1ae910dfc1a59c7d92]
+
+tAdd a graphic and a spreadsheet encoder...
+
+
+2016-06-21  osnola  <alonso@loria.fr>  [6e49173270aacdbbbc5ee5d32e8749560617895f]
+
+tunits: some units are 100th of millimeters, so try to convert them correctly, StarObjectSpreadsheet.cxx: begin to retrieve some basic graphic's shapes and some pictures...
+
+
+2016-06-20  osnola  <alonso@loria.fr>  [fa7f0a7f9c435cbeaf457523ab9ac3786e5ffdbc]
+
+tclang: continue to remove some warnings when compiling with -Weverything
+
+
+2016-06-20  osnola  <alonso@loria.fr>  [be618a02b9a2831812347c148d5fd57d3c53b9b3]
+
+tclang: remove some warnings when compiling with -Weverything
+
+
+2016-02-12  osnola  <alonso@loria.fr>  [51bb876d31b597e3f48827d3e5a0791c52cf0084]
+
+tUpdate README files...
+
+
+2016-02-12  David Tardon  <dtardon@redhat.com>  [359706d758fd056701208e67435a3afbb3bd84e2]
+
+tsimplify distribution and installation of headers
+
+
+2016-02-12  David Tardon  <dtardon@redhat.com>  [9d33222cfdd7bcbda7ac25a616afac508ee1c569]
+
+tmake help output help2man-friendly
+
+
+2016-02-12  David Tardon  <dtardon@redhat.com>  [8b76588b8b9555abb1efed32e4660bf7ad3c4bb9]
+
+tautomatically pass -std=c++11 if needed
+
+
+2016-01-28  osnola  <alonso@loria.fr>  [40d2a81695463fd4bb2dc46ba6744e72e6f5fe0a]
+
+tafl: correct more potential problems...
+
+
+2016-01-27  osnola  <alonso@loria.fr>  [78f0c3b780607934c22824f6e8a311d89f235e46]
+
+tafl: correct some potential problems, ...
+
+
+2016-01-27  osnola  <alonso@loria.fr>  [4299ff541ebe3e5d0e60242c6310527e279f710f]
+
+tcoverity: try to check better potential integer overflows...
+
+
+2016-01-26  osnola  <alonso@loria.fr>  [11098c68cc14b82b61957f64477fc6ff482dab32]
+
+tcoverity: correct some problems found by coverity...
+
+
+2016-01-26  osnola  <alonso@loria.fr>  [3234292ccab0a018644f317569befbc6fdc6b707]
+
+tregression: add some .sda files + update results...
+
+
+2016-01-26  osnola  <alonso@loria.fr>  [b0d7fbf92e0787a556db4ba1eeab53d5b441d9ad]
+
+tcppcheck: correct some warnings...
+
+
+2016-01-26  osnola  <alonso@loria.fr>  [b6c38589fa81899683c6e886e18bf22b09430dc5]
+
+tlibstaroffice.hxx: increments STOFF_GRAPHIC_VERSION to indicate that   + we begin to parse .sda and .sdg files,   + a new enum STOFF_K_GRAPHIC has been added and correct various compilers' warnings.
+
+
+2016-01-26  osnola  <alonso@loria.fr>  [f4e96e5e69db13eb4f97af1484f07f0166f6b243]
+
+t.sdg parser: add the picture name in a textbox below each bitmaps, .sda parser: define only used graphic's styles...
+
+
+2016-01-21  osnola  <alonso@loria.fr>  [79eda750290f214314eb03c35e70851ab2320bfe]
+
+tconfigure.ac: update the micro version, NEWS/README: update these files, SDGParser.cxx: minor corrections...
+
+
+2016-01-21  osnola  <alonso@loria.fr>  [6dc1c457951780083ef6492cbde792dc6ac51eb3]
+
+tStarBitmap: add a function to retrieve the bitmap size, SDGParser: try to reconstruct some bitmaps, ...
+
+
+2016-01-19  osnola  <alonso@loria.fr>  [4dc368701123762a559a1b2a3a92d216789d6b69]
+
+tAdd an empty parser to parse .sdg files, to be continued...
+
+
+2016-01-19  osnola  <alonso@loria.fr>  [863aa86e7c0a2ef21a31e28716bdd5b6bc3afc9d]
+
+tSTOFFDocument.hxx: add a new enum to recognize .sdg file   + rename SDDParser.*xx in SDAParser.*xx(to be logical)...
+
+
+2016-01-18  osnola  <alonso@loria.fr>  [9a6531600e530c0346cbb8c3e67d0d7e507788bd]
+
+tGraphic style: try to retrieve the hierarchy of the graphic styles...
+
+
+2016-01-18  osnola  <alonso@loria.fr>  [614c4e619c5f222905d37381a1ec8eb153f5b90d]
+
+tConverters: add a sd2svg converter...
+
+
+2016-01-17  osnola  <alonso@loria.fr>  [aa8fa71fb133d02cea52b26b4163b4e4247c1d07]
+
+tTry to retrieve more pictures, ...
+
+
+2016-01-17  osnola  <alonso@loria.fr>  [0f9425da92cd9144d47207b4c63d452e57ca4e04]
+
+tTry to retrieve some graphic's style, ie. to send graphic's style as graphic's style, to be continued...   +try to retrieve some pictures
+
+
+2016-01-16  osnola  <alonso@loria.fr>  [5bd251b0a7751dee06b42f8c6686f6b0f0f6edee]
+
+tStar*Attribute: begin to retrieve some graphic surface's attributes, to be continued...
+
+
+2016-01-14  osnola  <alonso@loria.fr>  [cd69b80456f9ee541d36f849962d17d272cbf64c]
+
+tStarObjectSmallGraphic: add basic code to retrieve text zones, Star*Attribute: begin to retrieve some line's attributes, to be continued, STOFF*Listener: add code to send pictures, not tested...
+
+
+2016-01-13  osnola  <alonso@loria.fr>  [40723e9243a1bc4737cdfd0821cc962b0141582c]
+
+tStarObjectSmallGraphic: begin to retrieve some line, polygon, ... shapes  + try to simplify STOFFPosition.hxx.
+
+
+2016-01-12  osnola  <alonso@loria.fr>  [d2e7b9b7aa5a1763eadb1c9b55cb6cb6c5a77f0e]
+
+tSmall graphic: add code to reconstruct the circle's shapes, to be continued...
+
+
+2016-01-10  osnola  <alonso@loria.fr>  [e2aad98df8adccad947c4a6d118be5047e35aea5]
+
+tTest insertShape by drawing all graphic objects with a rectangle, ...
+
+
+2016-01-10  osnola  <alonso@loria.fr>  [9b6bede4e62ce0292aecb42cadbaeb2c1135c44d]
+
+tAdd a class to store graphic's shapes, to be continued...
+
+
+2016-01-10  osnola  <alonso@loria.fr>  [0a282b001247b866d5fc156231bf6ba180616d71]
+
+tBegin to add functions to create graphic documents: currently,   only recreate the metadata and the list of pages(but not their   contents); to be continued...
+
+
+2016-01-09  osnola  <alonso@loria.fr>  [2b37ecf28a76ff64ad10f60572d3e884d57b00f6]
+
+tBegin to store the small graphic's data...
+
+
+2016-01-06  osnola  <alonso@loria.fr>  [ff0d3a917bbf23c2091feaeb1b6a6b8b0073ffab]
+
+tFinish to store the data read in a SdrModel...
+
+
+2016-01-05  osnola  <alonso@loria.fr>  [18650f535f2fccf408849d524d93cf81c436e7ce]
+
+tCreate a class to store the SdrModel + begin to store its data,   to be continued...
+
+
+2016-01-05  osnola  <alonso@loria.fr>  [112ca6526dbddeb0e5ffcac2c8d661cbf385234c]
+
+tTry to decode encrypted StarDrawDocument...
+
+
+2016-01-04  osnola  <alonso@loria.fr>  [e28da1c896d11183b937f7ce3cbc344dee779335]
+
+tStarObjectSmallGraphic: add code to read FM01 small graphics...
+
+
+2016-01-04  osnola  <alonso@loria.fr>  [0d4ae407bbca3e60feb5017c628d92f784249769]
+
+tStarObjectSmallGraphic: add to parse "SDUD" graphic with identifer=1...
+
+
+2016-01-03  osnola  <alonso@loria.fr>  [7ad5aa1325373f90f59a78c4dc54c82e0c9425d2]
+
+tSplit StarObjectDraw in two files...
+
+
+2016-01-03  osnola  <alonso@loria.fr>  [a6e119454aeeba93e0b679b8106aec81c25792f6]
+
+tAdd code to parse SCHU graphics + add a function to clean pool's structures...
+
+
+2016-01-02  osnola  <alonso@loria.fr>  [5686abd1f15b3b57dbef7ccfb7317c2a09da318b]
+
+tcppcheck: correct some warnings...
+
+
+2016-01-02  osnola  <alonso@loria.fr>  [0b75000e0023d891fc22c7eabfdc5e5c00214a94]
+
+tContinue to improve the parsing of drawing structures, ...
+
+
+2015-12-29  osnola  <alonso@loria.fr>  [92bd21cc8c1a0aba1366e276458f72e74e1107a5]
+
+tTry to parse more Sdr structures, ...
+
+
+2015-12-28  osnola  <alonso@loria.fr>  [8e6e2c2dac50a56ab222fd9233600e18179819ad]
+
+tTry to improve the parsing of the Sdr structures, to be continued...
+
+
+2015-12-28  osnola  <alonso@loria.fr>  [2563633909e24def45dc0c3787f10cd5af648438]
+
+tFinish to plug the new SDDParser class...
+
+
+2015-12-27  osnola  <alonso@loria.fr>  [498eaefdef0d0e7ee487bbda25d786172a0e0acd]
+
+tAdd some classes which will need to retrieve graphic documents: SDDParser,   STOFFGraphicListener, ... + move the code to transform STOFFField into librevenge::RVNGPropertyList   in libstaroffice_internal, ...
+
+
+2015-12-27  osnola  <alonso@loria.fr>  [9bfa4365642d78365b597d362ee7827215e023a3]
+
+tsdc2csv: allow to choose the sheet which will be converted,   + update README file...
+
+
+2015-12-27  osnola  <alonso@loria.fr>  [bf6c11ce792bce3ef64deb0c2ce6813799a18cdb]
+
+tStarCellFormula: try to implement a special case when a If appears   in some Polish notation...
+
+
+2015-12-27  osnola  <alonso@loria.fr>  [42586bc86b5781365da353ce4623fa87a4ce4cdf]
+
+tStarCellFormula: begin to reconstruct some Polish notation's formula,   to be continued...
+
+
+2015-12-27  osnola  <alonso@loria.fr>  [c89ab4e5d96a2994015eab5ecce152bf660819dc]
+
+tStarCellFormula: change code to store the RPN codes, to be continued...
+
+
+2015-12-26  osnola  <alonso@loria.fr>  [7cb66f5ad8175f0e09796c32fea279f3545c1599]
+
+tStarFormatManager: correction of a special case...
+
+
+2015-12-26  osnola  <alonso@loria.fr>  [409a2ea507ad6e0e132ca8c1127f3c64583e08c1]
+
+tUse table:number-columns-repeated when sending the column' widths...
+
+
+2015-12-25  osnola  <alonso@loria.fr>  [092a2e48c2c00e5c94b771d712f8bc89dfb76586]
+
+tStarItemPool: improve finding on repetitions (by storing the created   default attributes).
+
+
+2015-12-25  osnola  <alonso@loria.fr>  [1a181b296a3d7b714646fc2fd5a1e7f2c5579a74]
+
+tContinue to retrieve the page's attributes.
+
+
+2015-12-25  osnola  <alonso@loria.fr>  [8c5dbad0bc61c398905d4cf179dd7f2a5c70e29e]
+
+tBegin to retrieve the page dimension and the headers/footers, to be continued, ...
+
+
+2015-12-24  osnola  <alonso@loria.fr>  [41ef9c7648cd3b1e0c221c463ee09bb53c667630]
+
+tSTOFFPageSpan: simplify the code, to be continued...
+
+
+2015-12-24  osnola  <alonso@loria.fr>  [f5c5e88342f1784ccf1cc7f864be42372089eb86]
+
+tBegin to modify the code to retrieve the page span parameter, to be continued...
+
+
+2015-12-23  osnola  <alonso@loria.fr>  [11b367d42f128d39febb31f178be791a4cdadc82]
+
+tCreate a class to store/retrieve the page style attributes...
+
+
+2015-12-23  osnola  <alonso@loria.fr>  [d5798bf5339a7b99e12db7b244e2c687cb242ee6]
+
+tStarItem: rename StarItemPoolInternal::Style in StarItemStyle, STOFFParagraph: simplify this class, StarParagraphAttribute: create a namespace to parse the paragraph   attributes, to be continued...
+
+
+2015-12-22  osnola  <alonso@loria.fr>  [02da773de33b0934c68b6f6356e4174bbf02928f]
+
+tStar*Attribute: finish to add code to send the empty attributes, can   be usefull if we can regenerate the styles, StarItemPool: add a hack to retrieve the original style name even if   it was read using a bad encoding, ...
+
+
+2015-12-22  osnola  <alonso@loria.fr>  [3be69f04022276a2cec8a5bbb93755c029ae2e54]
+
+tBegin to retrieve the styles, ie. try to reconstruct the final   formatting by adding the style attributes and then the cell's   attributes... Star*Attribute: add code to send the empty attributes, to be   continued...
+
+
+2015-12-21  osnola  <alonso@loria.fr>  [5f43c48e4be8d9efbe70b267b3b1274d2496dabe]
+
+tStarItem: create a file to store the definitions and functions of StarItem   and StarItemSet, StarItemPool: create an internal class to store the styles, to be continued...
+
+
+2015-12-20  osnola  <alonso@loria.fr>  [c74ea13ff6fd59fccb36bc9958d74096e872f8e7]
+
+tlibstaroffice_internal: add a function to convert a date+time in DateTime format, StarObject: improve the generation of metadate, ie. generate correct dates, STOFFCell.hxx: correct a compiler warning...
+
+
+2015-12-19  osnola  <alonso@loria.fr>  [186d11751f470a25fe3b5a199505f21641cf3266]
+
+tSTOFFSpreadsheetListener: add possibility to send the note's author and/or date as string, StarObjectSpreadsheet: try to retrieve the notes, StarFormatManager: try to retrieve numeric user format...
+
+
+2015-12-18  osnola  <alonso@loria.fr>  [909bb83c8a0fade87bd02e8129fa24eff67c3914]
+
+tNumbering formats: finish to implement default styles...
+
+
+2015-12-18  osnola  <alonso@loria.fr>  [dace0a618348542d36e527589c71284cdd53ca6f]
+
+tNumbering format: begin to implement default numbering formats, to be continued...
+
+
+2015-12-17  osnola  <alonso@loria.fr>  [f6a24daf7ae859fd7dbcc959640fa8d085311a9a]
+
+tNumbering type: moves the code which sets numbering in StarFormatManager,   to be continued...
+
+
+2015-12-17  osnola  <alonso@loria.fr>  [fda3289d538fa2b16cda44e09882943d14f2af78]
+
+tRename SWFormatManager in StarFormatManager + add a format manager   in each object + modify code to use it, to be continued...
+
+
+2015-12-17  osnola  <alonso@loria.fr>  [a69b7e6e34d592eb6afbf6e9962d7dd138029c20]
+
+twarnings: correct some compiler's warnings...
+
+
+2015-12-16  osnola  <alonso@loria.fr>  [317409f297e0ca0dd3c2e2a2a328a046d8a59389]
+
+tStarCellAttribute: finish moving the cell's attributes in StarCellAttribute...
+
+
+2015-12-16  osnola  <alonso@loria.fr>  [1be98ecbb42573b702b3e123961573e9de76e502]
+
+tcell attributes: implement new attributes + continue to move their   implementation in StarCellAttribute...
+
+
+2015-12-16  osnola  <alonso@loria.fr>  [3cfbade7e2123e322066bf3fa3524928eeb6462d]
+
+tStarCellAttribute: add a file to retrieve the some cell's attributes...
+
+
+2015-12-14  osnola  <alonso@loria.fr>  [360d6caf3c97aac0aaa1f971cd86414df46f54c0]
+
+tStarGraphicStruct: add a file to read/store graphic brush... StarGraphicAttribute: begin to retrieve basic brush.
+
+
+2015-12-13  osnola  <alonso@loria.fr>  [7c3ee8be5338664e320c1b0ecbb5e0f2152c0ad6]
+
+tSTOFFCellStyle: add a class to store the cell style StarGraphicAttribute: retrieve the cell/graphic's shadows...
+
+
+2015-12-13  osnola  <alonso@loria.fr>  [fff16a6603a98a50c5573bf2ae177a2207ab9d5f]
+
+tlibstaroffice_internal: update STOFFBorder to correspond to StarOffice   border line, STOFFGraphicStyle: add a class to store the graphic styles, StarGraphicAttribute: add a class to store graphic attribute and add code   for the retrieving borders' style, to be continued, ...
+
+
+2015-12-12  osnola  <alonso@loria.fr>  [f851f137d4a5bbc804468dd9e6c5fb6fb2eef6e3]
+
+tStarCharAttribute: retrieve main character's attributes, StarLanguage: add a file to retrieve languages' iso names and countries, STOFFFont: add some variables to store hyphen and linebreak status.
+
+
+2015-12-11  osnola  <alonso@loria.fr>  [c0f8a382870130087aa177ab4fd895600da8d829]
+
+tStarCharAttribute: add a file to regroup character attributes +   begin to retrieve more attributes, to be continued... StarItemPool: read the relocation position when it is defined +   stores the different attibutes in a map.
+
+
+2015-12-09  osnola  <alonso@loria.fr>  [a97703a767eb2c7b61ca2f8c033e092659b7f9fd]
+
+tStarAttribute: define basic attributes in the header file, ...
+
+
+2015-12-09  osnola  <alonso@loria.fr>  [cd7956fed54349d712cd29c962cfbe8982c7137a]
+
+tStarItemPool: add code to retrieve the surrogate attributes STOFFFont: simplify the structure to only store a RNVGPropertyList STOFFSpreadsheetListener: add code to repeat row and columns +   begin to store the style attributes StarAttribute: begin to retrieve the font's color and the strikeout   attribute, to be continued...
+
+
+2015-10-01  osnola  <alonso@loria.fr>  [71bb93d738dea8fc935dd0b7cf570bcba78ee49f]
+
+tCorrect some clang analyzer warnings...
+
+
+2015-10-01  osnola  <alonso@loria.fr>  [acf4ff3717eae64d7fc951ec412a6fcf910afabb]
+
+tcoverity: correct a remaining warnings + update the regression result to take in account the metadata...
+
+
+2015-10-01  osnola  <alonso@loria.fr>  [4446ee3f954e0f260e3fb45dbb7d436076178bfe]
+
+tMinor corrections...
+
+
+2015-09-30  osnola  <alonso@loria.fr>  [a6c0d5caf2a424a8ab03b046c6f77e4bd5f82f3b]
+
+tcoverity: continue to correct errors + try to retrieve the file metadata...
+
+
+2015-09-30  osnola  <alonso@loria.fr>  [2a6b79d9711f04711e39efdac38621a2764f6541]
+
+tcoverity: correct some problems, to be continued...
+
+
+2015-09-29  osnola  <alonso@loria.fr>  [63739967efcd11363b99a3a8828e8f4d487f06f5]
+
+tCreate a regression directory...
+
+
+2015-09-29  osnola  <alonso@loria.fr>  [391b73b6e5ea42df0bc21ff8423fefa401a7b804]
+
+tUpdate README...
+
+
+2015-09-29  osnola  <alonso@loria.fr>  [300e7810e51b889d40f555129a410c5918a4d514]
+
+tAdd class to "retrieve" small zone of text + update some README files, ...
+
+
+2015-09-28  osnola  <alonso@loria.fr>  [1f3047861d45c5304a9ac833f786dfd0a8b860bc]
+
+tTry to reconstruct other formula...
+
+
+2015-09-27  osnola  <alonso@loria.fr>  [e92d185229fe4c6960529c85900f33f8b3d2d3c5]
+
+tBegin to reconstruct cell's v3 formula...
+
+
+2015-09-24  osnola  <alonso@loria.fr>  [903d33e9967e0da6fce749af4044330ee816cdff]
+
+tBegin to reconstructor some sheet's structure: strings + value + add a new convertissor: sdc2csv...
+
+
+2015-09-22  osnola  <alonso@loria.fr>  [760257bb7855ad4df65ab129d506a7b162b62efd]
+
+tModify code to read string as a set of unicode characters...
+
+
+2015-09-20  osnola  <alonso@loria.fr>  [c5fbef9bc6d71f786d6a1a9027e580508027fcc0]
+
+tContinue to add classes to store cell, table, ...
+
+
+2015-09-19  osnola  <alonso@loria.fr>  [f6e07bb1a52e09ad2d0e9795304017642aee8d95]
+
+tAdd some classes to store font's, paragraph's ... properties, to be continued...
+
+
+2015-09-19  osnola  <alonso@loria.fr>  [6902dfd1fa40b79f622f934c6571b2f79e82cef8]
+
+tcorrect some errors + implements SDCParser::checkHeader...
+
+
+2015-09-19  osnola  <alonso@loria.fr>  [775a5a6f16db333a78244bc34a0bf200939a9eff]
+
+tCreate a parser class for sdc documents + add flag in STOFFHeader to indicate that a file is encrypted...
+
+
+2015-09-18  osnola  <alonso@loria.fr>  [cbffe2a28f96f90abac5c43dfb2db171d2afe1c3]
+
+tMake StarObject* inherit from StarObject + remove duplicated function in SDWParser...
+
+
+2015-09-18  osnola  <alonso@loria.fr>  [1d87a91a6dd5ba6886c528888a7cec5badef2637]
+
+tRename StarDocument in StarObject...
+
+
+2015-09-18  osnola  <alonso@loria.fr>  [f82bed266d583866e17b74b8a96ce297ef0408b5]
+
+tAdd a class to store/parse text zones/OLEs, to be continued, ...
+
+
+2015-09-18  osnola  <alonso@loria.fr>  [849d46b56022b21c597247866af964f593c03992]
+
+tRename sdw2raw in sd2raw...
+
+
+2015-09-18  osnola  <alonso@loria.fr>  [1377f7d1bb2dba78cdc78a378581b84face5460b]
+
+tRename sdw2text in sd2text...
+
+
+2015-09-18  osnola  <alonso@loria.fr>  [85fa5bbb50b7021df08e28291aeddddd37b098c8]
+
+tStarObjectSpreadsheet: modify it to parse all spreadsheet ole zones...
+
+
+2015-09-17  osnola  <alonso@loria.fr>  [de8248e4e6a61636e30dd0ced403e2228526d8f2]
+
+tcorrect some compilers' warnings...
+
+
+2015-09-17  osnola  <alonso@loria.fr>  [2705586352f0793aadc7f4877501d4bb19ea785f]
+
+tRename SDCParser in StarObjectSpreadsheet to create a class to read spreadsheet Ole zones, to be continued...
+
+
+2015-09-17  osnola  <alonso@loria.fr>  [c9a3bb4876c494e351b372eefde8dadbeb385c22]
+
+tAdd a class to parse SdrXXX zones, ...
+
+
+2015-09-17  osnola  <alonso@loria.fr>  [73529883c02ff55803222e387f0ea40b96d3eff0]
+
+tCreate a class to parse chart object and move chart's code in this class...
+
+
+2015-09-17  osnola  <alonso@loria.fr>  [b76985535ab9a61b932d33170d123490281058c3]
+
+tAdd code to uncrypt the StarCalcDocument's zone...
+
+
+2015-09-17  osnola  <alonso@loria.fr>  [99e22cb991b6a9def7d54e508d89944f2d96dedf]
+
+tTry to allow user to give the document password...
+
+
+2015-09-16  osnola  <alonso@loria.fr>  [4a65a4243f449f335bb8a7c38d38a468231cef4d]
+
+tAdd a class to decrypt data, ...
+
+
+2015-09-16  osnola  <alonso@loria.fr>  [72a712ba9dbdd3ac1b109fa0dc6d812109a18d8c]
+
+tRemove some unused included files...
+
+
+2015-09-15  osnola  <alonso@loria.fr>  [fbe959b321c0100c25917644dcc03f5f2a3d59b2]
+
+tModify the encoding functions to take a "string" in argument and returns a list of unicode's characters...
+
+
+2015-09-14  osnola  <alonso@loria.fr>  [3ecff286a7439607636be1d28240d04bf55b55ab]
+
+tSmall corrections...
+
+
+2015-09-14  osnola  <alonso@loria.fr>  [282adc606bb6fbd5e3c7375dc953fe16b9379ce0]
+
+tAdd some Korean encodings, ...
+
+
+2015-09-12  osnola  <alonso@loria.fr>  [55801c3573988c124c5af91e5a60967e537e9430]
+
+tAdd traditional chinese encodings...
+
+
+2015-09-11  osnola  <alonso@loria.fr>  [937da57ec4e0fc2e1c0829657fac7a0c0083ae61]
+
+tBegin to create class to manage/read the different encodings, to be continued...
+
+
+2015-09-11  osnola  <alonso@loria.fr>  [540b0848df59a4335d17d5e936a5d67dd7acfeb3]
+
+tTry to parse de StarCalcDocument structures...
+
+
+2015-08-29  osnola  <alonso@loria.fr>  [80d7764a31def7dd81f30c5ee904794e2dca645b]
+
+tContinue to create classes to store attributes's + try to parse more pictures...
+
+
+2015-08-24  osnola  <alonso@loria.fr>  [5e751e7cace18fe67d8030b71ae286cc2a4d9dfa]
+
+tStarAttribute: begin to "store" float's attributes, to be continued, ...
+
+
+2015-08-23  osnola  <alonso@loria.fr>  [17ea2c5066b1e0a9cd140b826301d6939494bcfd]
+
+tStarItemPool: try to read v1's default attributes, StarAttribute: begin to "store" int's attributes, to be continued, ...
+
+
+2015-08-22  osnola  <alonso@loria.fr>  [14d92261809cc9fca4303599debe32a7019b7259]
+
+tBegin to implemented secondary's pool + begin parse pools in DrawingLayer's ole.
+
+
+2015-08-21  osnola  <alonso@loria.fr>  [c99067f349f826ea532e822d8cfb2bd04fc2dbec]
+
+tContinue to improve the SfxItemSet's reading...
+
+
+2015-08-20  osnola  <alonso@loria.fr>  [f8a601163d0a1ec76e8b5a67ca8e2b820dc19af3]
+
+tBegin to read more SfxItemSet attributes...
+
+
+2015-08-20  osnola  <alonso@loria.fr>  [cab54bce12fb4ff9b4a0267d417bdf371af4a5d5]
+
+tContinue to simplify the StarAttribute.cxx (finish creating container to store bool's attribute)
+
+
+2015-08-20  osnola  <alonso@loria.fr>  [4f57e1d4b929edc22d8a2427f1156ac496d00ee4]
+
+tContinue to simplify the StarAttribute.cxx and to create container to store bool's attribute...
+
+
+2015-08-20  osnola  <alonso@loria.fr>  [3678ac64f2ffdb55f480d403d30a7f4ca4488c5a]
+
+tCreate an attribute manager and begin to simplify StarAttribute.cxx...
+
+
+2015-08-19  osnola  <alonso@loria.fr>  [6898e65c9ab73d4a1e0774337e5947bcc36a3e5b]
+
+tCorrect some mistakes...
+
+
+2015-08-19  osnola  <alonso@loria.fr>  [1152b2d4fa2a206d3a4a6b6aea672f15b742eaa3]
+
+tAdd some code to parse some bitmaps...
+
+
+2015-08-18  osnola  <alonso@loria.fr>  [05d9325bfb03979b3f27ae520868d30db6bbc34b]
+
+tFinish to parse the XOutdevItemPool's attribute...
+
+
+2015-08-17  osnola  <alonso@loria.fr>  [f46cd22213ca76e30d9bd24a94fc8a4a943e6a4e]
+
+tBegin to parse the XOutdevItemPool's attribute: ie all xdev's + half sdraw's attributes...
+
+
+2015-08-16  osnola  <alonso@loria.fr>  [ed11a8fc067eb53fae9122cc2f7e69e8f402de99]
+
+tTry to parse the SchItemPool's attributes...
+
+
+2015-08-15  osnola  <alonso@loria.fr>  [243ffcf100f04041e95d9c8dfda0c5502d2509f3]
+
+tBegin to read EditEngineItemPool's attributes + improve reading of persist elements + ...
+
+
+2015-08-13  osnola  <alonso@loria.fr>  [9eb1960437b0720da6bfdbd9a26d098e842166fc]
+
+tAdd code to read SCDocument item pools, ...
+
+
+2015-08-12  osnola  <alonso@loria.fr>  [cd1a88381658d0b8ec123d78d3864fb3a98c16f9]
+
+tBegin to parse SWAttributes in a v2 SfxPoolItem...
+
+
+2015-08-12  osnola  <alonso@loria.fr>  [5dd339bd9274d16709acdc66cf57a3647cca93a2]
+
+tmoves SWAttributeManager in StarAttribute to make it more general...
+
+
+2015-08-11  osnola  <alonso@loria.fr>  [d746e4d6fee4cd2bc3d788d95ca5e6fc61a5df48]
+
+tCreate a class to store/parse an SfxItemPool: StarItemPool + update STOFFOLEParser to correspond to StarOffice's files.
+
+
+2015-08-09  osnola  <alonso@loria.fr>  [76c0bc80b33794ab79f22d41ecd42977847cc850]
+
+ttry to read not-empty SfxPool + begin to parse SfxStyleSheet's oles...
+
+
+2015-08-08  osnola  <alonso@loria.fr>  [d9123887ae748256e50c7cd7c171a6cfcb6f8331]
+
+tCorrect a compiler's warning...
+
+
+2015-08-07  osnola  <alonso@loria.fr>  [8f15cb1947870451d24c8b1effc8c44324cdc114]
+
+tBegin to parse StarChartDocument Ole...
+
+
+2015-08-05  osnola  <alonso@loria.fr>  [270521aef0fc2215c5557e5e6c5e03fa3e80830b]
+
+tAdd a file to parse chart/spreadsheet data + correct various problems...
+
+
+2015-08-03  osnola  <alonso@loria.fr>  [8d8a4211f6a59f94c1f04eec305a331f8e85e747]
+
+tRename SWZone in StarZone + add code to parse StarMathDocument Ole, ...
+
+
+2015-08-03  osnola  <alonso@loria.fr>  [e38d5706e8827ae1347648dd9cc35e4e3107ca61]
+
+tSTOFFInputStream: add some operator>> to read int8_t, ... uint32_t and double, StarFileManager: add a class to read "persist elements", "SfxDocumentInformation", "SfxWindows", "Star Fr... File"
+
+
+2015-08-02  osnola  <alonso@loria.fr>  [467dbd5e0ad629c6ce9cc8a95aa196f7d0f98621]
+
+tbuild/win32/libstaroffice.*: try to update the windows project files...
+
+
+2015-08-02  osnola  <alonso@loria.fr>  [3807eacd8092e4f3156503f38adb3be3bc848f4e]
+
+tCreate a README file to be compatible with github...
+
+
+2015-08-02  osnola  <alonso@loria.fr>  [9d9b9bcf42628e7e9062806120c337c9071faff2]
+
+tContinue to try to parse the different SDW's OLE...
+
+
+2015-07-29  osnola  <alonso@loria.fr>  [88cec28b94915596319f25bb424b7aa85961107a]
+
+tBegin to parse the main SW structures which appears in SwNumRules, SwPageStyleSheets, SfxDocumentInfo, SummaryInformation...
+
+
+2015-07-23  osnola  <alonso@loria.fr>  [865759d52fdd1bdcb051a23b1c960260ac12ee4b]
+
+tCreate the first files + try to parse some basic Ole zones...
+
